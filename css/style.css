@@ -27,9 +27,25 @@
     gap: 30px;
 }
 
-.logo {
+.logo p{
     padding-right: 30px;
     font-weight: 400;
     font-size: 20px;
     color: black;
+    position: relative;
+    text-transform: uppercase;
+}
+.nav-left-content ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-left-content ul li a {
+    font-size: 16px;
+    line-height: 140px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    color: #757575;
 }
