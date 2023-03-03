@@ -2,4 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1180px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left-content {
+    display: flex;
+    margin: 0;
+    gap: 30px;
+}
+
+.logo {
+    padding-right: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
 }
